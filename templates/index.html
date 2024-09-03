@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisionX Studios Creative AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="VisionX Studios Logo">
+                <h1>VisionX Studios Creative AI</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/features">Features</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Unleash Your Creativity with AI</h2>
+            <p>Welcome to VisionX Studios Creative AI, where your imagination meets cutting-edge technology.</p>
+            <p>Get started with our powerful tools for text generation, image processing, and multimedia creation.</p>
+        </section>
+
+        <section class="apps">
+            <h3>Explore Our Tools</h3>
+            <div class="app-links">
+                <div class="app-item">
+                    <h4>Image Editing</h4>
+                    <p>Enhance and transform your images with AI-powered tools.</p>
+                    <a href="/image-editing" class="app-link">Start Editing</a>
+                </div>
+                <div class="app-item">
+                    <h4>Animation Suite</h4>
+                    <p>Create stunning animations with keyframe controls and AI-driven effects.</p>
+                    <a href="/animation" class="app-link">Create Animation</a>
+                </div>
+                <div class="app-item">
+                    <h4>Audio Processing</h4>
+                    <p>Design and mix multi-layered audio tracks with advanced tools.</p>
+                    <a href="/audio-processing" class="app-link">Mix Audio</a>
+                </div>
+                <div class="app-item">
+                    <h4>Text Generation</h4>
+                    <p>Generate compelling content with AI-powered text tools.</p>
+                    <a href="/text-generation" class="app-link">Generate Text</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>&copy; 2024 VisionX Studios. All rights reserved.</p>
+                <p><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
+            </div>
+            <div class="footer-right">
+                <p>Follow Us:</p>
+                <a href="https://twitter.com/VisionXStudios" target="_blank">Twitter</a> |
+                <a href="https://facebook.com/VisionXStudios" target="_blank">Facebook</a> |
+                <a href="https://instagram.com/VisionXStudios" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
